@@ -55,6 +55,7 @@ a {
     padding: 5rem 20rem;
     font-size: 5rem;
     color: rgb(255, 0, 0);
+    color: aliceblue;
     border-radius: 5rem;
     transition: background-color 0.8s ease;
 }
