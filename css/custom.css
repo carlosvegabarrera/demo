@@ -1,0 +1,63 @@
+/* ============ CONFIGURACION GENERAL ============ */
+html{
+    font-size: 62.5%; /* :::: Reset para REMs - 62.5% == 10 px de 16 px :::: */
+}
+*, *:before, *:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Overlock', Lato;
+    font-size: 1.9rem;
+    line-height: 1.5;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+.logoImg .btnInicial{
+    display: block;
+}
+
+/* ============ BACKGROUND ============ */
+.contenedorPrincipal{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.bgImg{
+    background-image: url(../images/background_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+/* ============ BLOQUE IZQUIERDO ============ */
+.bgTransparencia{
+    background-color: rgba(0,0,0,.70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoImg{
+    width: 40%;
+}
+
+/* ============ BLOQUE DERECHO ============ */
+.bienvenidaDummy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnInicial{
+    background-color: rgba(0,0,0,.3);
+    padding: 5rem 20rem;
+    font-size: 5rem;
+    color: aliceblue;
+    border-radius: 5rem;
+    transition: background-color 0.8s ease;
+}
+.btnInicial:hover {
+    background-color: rgba(0,0,0,.9);
+}
